@@ -1,0 +1,369 @@
+.main-header{ position: relative; float: left; width: 100%; background: #0063a0; padding: 25px 0 20px; border-bottom: 3px solid #01BBC3;}
+.logo{ float: left; width: 200px; }
+.page-title{ float: right; width: 150px; margin:22px 0 0 ;}
+.wrap{ position: relative; float: left; width: 100%; padding: 30px 0;}
+.demo{ float: left; width: 100%; }
+.title{ border-bottom: 1px solid #01BBC3; margin-bottom: 35px;}
+.demo h1, .demo h2 { float: left; color: #01BBC3; padding-bottom: 10px; font-style: italic; margin: 0; }
+.demo h1{ font-size: 36px; line-height: 46px; font-weight: 600; }
+.demo h2{ font-size: 26px; line-height: 36px; font-weight: 400; margin: 0 0 20px;}
+.demo p{ color: #666666; font-weight: 300;}
+.paragraph .title, .lists .title, .forms .title, .check-radio .title,  .switch .title, .manipulators .title, .list-grid-view .title, .buttons .title,
+.alerts .title, .panels .title, .panel-box .title, .carousel .title, .multiple-carousel .title, .helpers .title{ font-size: 14px; line-height: 18px; font-weight: 300; color: #999999; border:none;}
+
+
+.content { float: left; position: relative; width: 100%; margin-bottom: 50px; color: #666666;}
+.typo-font p{ font-size: 21px; line-height: 27px; font-weight: 300;}
+.typo-font h3{ font-size: 62px; line-height: 45px; font-weight: 200;}
+.typo-font h4{ font-size: 15px; font-weight: 200; margin: 15px 0 30px;}
+
+.typo-style ul{ float: left; display: inline-block; padding: 0 30px 0 0; }
+.typo-style li{ display: block; list-style:none; margin-bottom: 25px;}
+
+.demo-button{ float: left; border: none; background: none; padding: 0; margin: 0 15px 0 0; outline: none;}
+.paragraph .title{ margin: 0;}
+.paragraph table{ margin: 0;}
+.paragraph td{ padding: 5px 20px 5px 0;}
+
+.lists .title{ margin: 0 0 15px;}
+.unordered-list{ float: left; position: relative; margin: 0 71px 20px 0;}
+.ordered-list{ float: left; position: relative; margin: 0 71px 20px 0;}
+.tree-list{ float: left; position: relative; margin: 0 0 20px;}
+
+.list-group-box{ float: left; width: 100%; position: relative; margin-bottom: 70px;}
+.list-group{ max-width: 700px; }
+
+.table-box{ max-width: 900px; float: left;}
+
+.colors{ float: left; position: relative; width: 100%; margin: 0 0 30px; color: #666666;}
+.colors h3{  float: left; margin: 20px 0 0; }
+.big-color-box{ position: relative; float: left; display: block; max-width: 420px; width: 100%; height: 60px; margin: 0 20px 20px 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+.palette{ position: relative; float: left; display: block; background: #ffffff;  max-width: 420px; width: 100%;  padding: 30px; margin: 0 20px 20px 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+.palette ul{ float: left; display: grid; padding: 0; margin: 0;}
+.palette li{ float: left; display: block; list-style: none; width: 54px; height: 54px; margin: 3px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+
+.forms{ float: left; max-width: 600px;}
+.forms .title{ margin: 0 0 15px 15px;}
+/*.form-control, .input-group{ margin: 0 0 40px 0;}*/
+.bootstrap-select{margin-bottom: 40px;}
+
+.check-radio{ float: left; margin-bottom: 40px;}
+.check-radio ul {  list-style: none; margin: 0 150px 0 0; padding: 0; display: inline-block;}
+.check-radio li{ display: block; margin-bottom: 20px;}
+.check-radio .title{ margin: 0 0 15px 0;}
+
+/*.switch{ float: left; margin-bottom: 40px;}*/
+.switch{ float: none;}
+.switch ul { list-style: none; margin: 0; padding: 0; display: block;}
+.switch li{ display: inline-block; margin: 0 150px 0 0}
+.switch .title{ margin: 0 0 15px 0;}
+
+.manipulators{ float: left; margin-bottom: 30px;}
+.manipulators ul { list-style: none; margin: 0; padding: 0; display: block;}
+.manipulators li{ display: inline-block; margin: 0 0 30px 0}
+.manipulators .title{ margin: 0 0 15px 0;}
+
+.list-grid-view{float: left; margin-bottom: 40px;}
+.list-grid-view ul { list-style: none; margin: 0; padding: 0; display: block;}
+.list-grid-view li{ display: block; margin: 0 0 30px 0}
+.list-grid-view .title{ margin: 0 0 15px 0;}
+.list-grid-btn a{ margin:0 20px 0 0;}
+
+.buttons{ float: left; margin-bottom: 30px;}
+.buttons ul { list-style: none; margin: 0; padding: 0; display: block;}
+.buttons li{ display: inline-block; margin: 0 30px 30px 0}
+.buttons .title{ margin: 0 0 15px 0;}
+
+.img-btn{ float: left; position: relative; width: 250px; height: 200px; background: url("../img/bg.jpg") no-repeat; margin: 0 0 50px;}
+
+.main-wrap{ height: 100vh;}
+
+.marbtm100{margin: 0 0 100px 0;}
+
+.iconset{ float: left; margin-bottom: 40px}
+.iconset ul { list-style: none; margin: 0; padding: 0; display: block;}
+.iconset li{ display: inline-block; width: 75px; height:60px;}
+.iconset li >div{ margin: 0 auto;}
+
+.steps { width: 700px;margin: 0 0 40px;}
+
+.popup-box { float: left; width: 100%; max-width: 700px; margin: 0 0 100px 0; }
+
+.dropdown-box{ float: left; width: 100%; max-width: 700px; margin: 0 0 40px 0; }
+.dropdown-box >ul { list-style: none; margin: 0; padding: 0; display: block;}
+.dropdown-box >ul>li{ float: left; display: inline-block; margin: 0 30px 0 0; }
+
+.badges-box{ float: left; width: 100%; max-width: 700px; margin: 0 0 40px 0; }
+.badges-box >ul { list-style: none; margin: 0; padding: 0; display: block;}
+.badges-box >ul>li{ float: left; display: inline-block; margin: 0 30px 0 0; }
+
+.tab-box{float: left; width: 100%; max-width: 700px; margin: 0 0 40px 0; }
+
+.alerts { float: left; width: 100%; max-width: 700px; margin: 0 0 40px 0; }
+.alerts .title{ margin: 0 0 15px 0;}
+.alert{ margin: 0 0 40px 0; right: 42px !important;}
+.zone{ max-width: 700px;}
+
+.panels { float: left; width: 100%; max-width: 700px; margin: 0 0 40px 0; }
+.panels .title{ margin: 0 0 15px 0;}
+.panel{ margin: 0 0 40px 0;}
+
+
+.pager{ text-align: left;}
+
+
+.panel-box { float: left; width: 100%; max-width: 700px; margin: 0 0 40px 0; }
+.panel-box .title{ margin: 0 0 15px 0;}
+
+.carousel{ float: left; position: relative; width:100%; max-width: 800px; margin: 0 0 40px 0; }
+.carousel .title{ margin: 0 0 15px 0;}
+
+.multiple-carousel{ float: left; position: relative; width:100%; max-width: 680px; margin: 0 0 40px 50px; }
+.multiple-carousel .title{ margin: 0 0 15px 0;}
+
+.tooltip-box{ float: left; margin-bottom: 30px;}
+.tooltip-box ul { list-style: none; margin: 0; padding: 0; display: block;}
+.tooltip-box li{ display: inline-block; margin: 0 30px 30px 0}
+
+.infobox{ margin: 0 30px 30px 0;}
+
+.helpers .title{ margin: 0 0 15px 0;}
+.helpers-txt, .helpers-bg{ margin-bottom: 30px;}
+
+.chart-bg{ margin: 0 0 100px;}
+
+
+/* panel demo css  */
+.login-page{ float: left; position: relative; width:100%; }
+.login-content{ width: 540px;  position: relative; left: 50%; margin-left: -270px; margin-top: 140px; padding: 30px; box-shadow: 2px 2px 16px 0px rgba(0,0,0,0.75); }
+.display-block{ display: block; }
+.display-none{ display: none; }
+.panel-sidebar { position: fixed; min-width:180px; width: 10%; float:left; min-height: 100vh; padding: 30px 0 0; margin: 0 0 0 0; background: #0063a0; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; z-index: 100; }
+.form-content{ float: left; margin-left: 180px; width: 83%; position: relative; padding: 20px 30px; }
+.logo-top{position: relative; top: -15px; left: 9px;}
+/*.panel-table > tbody > tr > td:first-child{ text-align: center; padding: 10px 0 10px 0;}
+.panel-table > tbody > tr > td{ padding: 10px 0 10px 0; }*/
+.area-tr{ border-bottom:1px solid #efefef; }
+.area-tr span{ padding-top: 5px; display: block; }
+.white-bg{ background: #fff; }
+.border-bottom-1{ border-bottom:1px solid #efefef; }
+.margin-right-2{ margin-right: 2px; }
+.dataTables_length select.input-sm{ height: auto; }
+.margin-bottom-25{ margin-bottom: 25px; }
+.margin-left-20{ margin-left: 20px; }
+.font-bold{ font-weight: bold; }
+.width-150{ width: 150px; }
+.width-230{ width: 230px; }
+.modul-title{ margin-bottom: 14px; margin-top: -20px; border-bottom: 2px solid; color: #0063a0 }
+.radio-select{ height:150px;float:left;width:100%;border:1px solid #d2d2d2; overflow-y:scroll; padding-left: 0;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+.page_li{ margin-right: 3px !important; }
+.treeRadio ul:first-child { padding-left: 10px; }
+.treeRadio label{ margin-bottom: 0; }
+.radioDisable { pointer-events: none; cursor: not-allowed; opacity: .65; }
+.tab-content{ border: 1px solid #e7eaec; border-radius: 2px; padding: 20px; margin-top: -1px; }
+.nav-tabs>li.active{ border-top: 1px solid #e7eaec; border-left: 1px solid #e7eaec; border-right: 1px solid #e7eaec; margin: 0; }
+#errorMessage{ color: #a94442; margin-bottom: 3px; }
+div.tagsinput{border: 1px solid #9B9B9B;color: #4A4A4A;font-size: 14px;line-height: 18px;font-weight: 300;padding: 8px 12px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;box-shadow: none;-webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;}
+div.tagsinput input{ width: 100% !important; }
+div.tagsinput span.tag{ background: #44C7F4; font-family: inherit; border: 1px solid #2e97bb; color: #fff; border: 1px solid #2e97bb; }
+.image-class{ margin-top: 10px; }
+.gallery-image{ width: 60px; margin-bottom: 9px; float: left; }
+.gallery-star { float: left; }
+.gallery-btn{ float: left; margin-left: 2px; margin-bottom: 9px;}
+.gallery-section{ display: block; width: 100%; position: relative; float: left; }
+.margin-top-30{ margin-top: 30px; }
+.margin-bottom-0{ margin-bottom: 0; }
+.panel-sidebar #leftside-navigation ul ul li.active > a{background: #0063a0; color: #f3a119;}
+.panel-sidebar #leftside-navigation ul ul li.active:after{display: none;}
+.images-area{position: relative; display: block; width: 100%; float: left;}
+.img-area{border: 1px solid #efefef; padding:5px;float: left;}
+.form-area-border{border: 1px solid #efefef;margin-bottom:15px;}
+.img-class{margin-bottom: 3px; height: 80px; overflow: scroll;float: left;width: 100%;position: relative;}
+.margin-bottom-10{margin-bottom: 10px;}
+.full-width-class{position: relative;display: block;width: 100%;float: left; margin-top: 5px; margin-left: 0px;}
+.image-text{width: 74%; float: left; margin-right: 4px;}
+.image-sort{width: 24%; float: left;}
+.img-close{position: absolute;color: #b30c0c;font-size: 20px;right: 20px;top: 1px;font-weight: 500;font-family: unset; cursor: pointer; z-index: 10}
+.table-responsive{border: 0;}
+.menu-open, .menu-close{display: none;}
+.session_username{margin-right: 20px;}
+.has-error .radio-select{ border-color: #a94442;}
+.customer-panel-logo{position: relative;margin-left: 19px;bottom: 0px;}
+.iframe-area-class{position: absolute;top: 0;right: 0;left: 0;z-index: 1111;bottom: 0;background: #000000c7}
+.iframe-area-close{position: absolute;right: 10px;margin-top: 10px;}
+.iframe-center{height:95%;margin-top: 50px;}
+.switch {position: relative;display: inline-block;width: 60px;height: 34px;}
+.switch input {display:none;}
+.slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}
+.slider:before {position: absolute;content: "";height: 26px;width: 26px;left: 4px;bottom: 4px;background-color: white;-webkit-transition: .4s;transition: .4s;}
+.switch input:checked + .slider {background-color: #2196F3;}
+.switch input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+.switch input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.slider.round {border-radius: 34px;}
+.slider.round:before {border-radius: 50%;}
+.status-active{position: relative;margin-left: 69px;top: 7px; color: #2196F3;display: none;}
+.status-passive{position: relative;margin-left: 69px;top: 7px; color: #cccccc;}
+.switch input:checked ~ .status-passive{display: none;}
+.switch input:checked ~ .status-active{display: block;}
+.rule-read{font-size: 16px; margin-left: 18px !important;}
+.rule-add{font-size: 16px; margin-left: 19px !important;}
+.rule-update{font-size: 16px; margin-left: 35px !important;}
+.rule-delete{font-size: 16px; margin-left: 13px !important;}
+.email-send-btn{position: absolute; right: 30px; margin-top: -49px;}
+.small-label{font-size: 12px;}
+.small-selectbox{height: 35px;}
+.margin-bottom-3{margin-bottom: 3px;}
+div.dataTables_wrapper div.dataTables_filter input{height: 35px;}
+.admin-page-title{margin-bottom: 10px;}
+.margin-bottom-10{margin-bottom: 10px !important;}
+.margin-bottom-20{margin-bottom: 20px !important;}
+.margin-bottom-30{margin-bottom: 30px !important;}
+.margin-bottom-40{margin-bottom: 40px !important;}
+.pagination-area{display: block;}
+.table-bordered thead th, .table-bordered thead td{border-bottom-width: 3px; border-bottom-color: #dddddd; background: #f2f2f2; height: 20px; padding: 0.87em 0.75rem;}
+.table th, .table td{vertical-align: initial}
+.table-striped>tbody>tr:nth-of-type(odd){background: #f9f9f9}
+.table-striped>tbody>tr:nth-of-type(even){background: #f2f2f2}
+.row-image-box{width: 100%; float: left;}
+.image-box{float: left; width: 143px; margin-right: 10px; margin-bottom: 10px;}
+.row-image-area{width: 143px; height: 100px;}
+.row-image-btn{width: 143px; padding: 0;}
+.font-14{font-size: 14px;}
+
+@media screen and (min-width: 992px) and (max-width: 1100px){
+    .panel-sidebar{
+        min-width: 160px;
+    }
+    .customer-panel-logo img{
+        width: 120px;
+    }
+    .form-content{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .panel-sidebar{
+        min-width: 140px;
+    }
+    .customer-panel-logo{
+        margin-left: 14px;
+    }
+    .customer-panel-logo img{
+        width: 110px;
+    }
+    .form-content{
+        width: 82%;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .panel-sidebar #leftside-navigation ul li a, .panel-sidebar #leftside-navigation ul ul li a{
+        font-size: 11px;
+    }
+    .form-content .btn{
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .panel-sidebar #leftside-navigation ul li a span{
+        display: none;
+    }
+    .panel-sidebar{
+        width: 7%;
+        min-width: 55px;
+        padding: 2px 0 0;
+    }
+    .panel-sidebar #leftside-navigation ul li a{
+        padding: 12px 0 12px 19px;
+    }
+    .form-content{
+        padding: 30px 10px;
+        width: 83%;
+        margin-left: 60px;
+    }
+    .form-content .btn{
+        font-size: 12px;
+    }
+    .main-wrap .panel-header{
+        padding: 10px 0px;
+    }
+    .panel-logo h2{
+        margin: 5px 0 5px 0px;
+    }
+    #lang{
+        margin-top: 5px;
+        padding: 0px 12px;
+        height: 34px;
+    }
+    .dataTables_length{
+        float: left;
+    }
+    .dataTables_length select{
+        padding: 4px 12px; 
+    }
+    .dataTables_filter{
+        float: left;
+        margin-left: -13px;
+    }
+    .dataTables_filter .form-control{
+        padding: 0px 12px;
+        height: 34px;
+    }
+    .login-content{
+        width: 310px;
+        margin-left: -155px;
+        margin-top: 50px;
+    }
+    .form-content .row:first-child{
+        margin-bottom: 15px !important
+    }
+    .menu-close{
+        display: none;
+    }
+    .menu-open{
+        display: block;
+    }
+    .customer-panel-logo{
+        margin-left: -2px;
+        bottom: -50px;
+        transform: rotate(270deg);
+        position: relative;    
+        margin-bottom: 10px;
+    }
+    .panel-sidebar #leftside-navigation ul li a, .panel-sidebar #leftside-navigation ul ul li a{
+        font-size: 13px;
+    }
+    .email-send-btn {
+        position: relative;
+        right: 0;
+        margin-top: -10px;
+        margin-bottom: 12px !important;
+        display: block;
+    }
+    .logo-top{top: 11px;}
+    .panel-sidebar #leftside-navigation ul{margin-top: 12px;}
+}
+
+@media screen and (max-width: 320px){
+    .form-content{
+        width: 82%;
+        margin-left: 60px;
+    }
+    .panel-logo{
+        width: 130px;
+    }
+    .panel-logo h2 a{
+        padding-right: 30px;
+    }
+}
+
+
+
+
+
+
+
+
