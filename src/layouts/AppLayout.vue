@@ -50,13 +50,13 @@ export default {
 
   #app-layout {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #d0d0d0;
     font-size: 24px;
     background: #000;
     height: 100vh;
     position: fixed;
     width: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   .flex-center {
@@ -80,7 +80,7 @@ export default {
   }
 
   .nav a {
-    color: #fff;
+    color: #d0d0d0;
     padding: 0 25px;
     font-size: 14px;
     font-weight: 600;
@@ -89,7 +89,7 @@ export default {
     text-transform: uppercase;
   }
 
-  .nav a:hover{color: #fff;}
+  .nav a:hover{color: #d0d0d0;}
 
   .author-text{position: absolute; right: 17px; margin-top: 12px;}
 

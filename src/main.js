@@ -15,7 +15,7 @@ import VueSwal from 'vue-swal'
 import VueEditor from 'vue2-editor'
 
 global.jQuery = global.$ = jQuery
-global.apiAssets = 'http://emre.local/api/storage/'
+global.apiAssets = 'http://app.emreozdemir.site/api/storage/'
 
 const toastrConfigs = {
   position: 'bottom right',

@@ -8,7 +8,7 @@ import adminWork from "./admin/work.module";
 
 Vue.use(Vuex);
 
-axios.defaults.baseURL = 'http://emre.local/api'
+axios.defaults.baseURL = 'http://app.emreozdemir.site/api'
 
 // export default new Vuex.Store({
 export const store = new Vuex.Store({

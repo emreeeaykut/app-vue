@@ -107,7 +107,7 @@ export default {
 
 <style lang="scss">
 	.detail-position{position: fixed; max-width: 18%;}
-	.detail-title{font-size: 35px; font-weight: 500; line-height: 1; margin-bottom: 15px; font-family: 'Roboto-Bold'}
+	.detail-title{font-size: 35px; font-weight: bold; line-height: 1; margin-bottom: 15px; font-family: 'Roboto'}
 	.description{font-size: 16px;}
 	.description p{margin-bottom: 0; font-size: 16px;}
 	.image-area{margin-bottom: 30px; width: 100%; height: 450px; background-size: cover; background-position: center; background-repeat: no-repeat; border: 1px solid #191919;}
