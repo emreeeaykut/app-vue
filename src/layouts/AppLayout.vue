@@ -41,6 +41,7 @@ export default {
   @import url('cxlt-vue2-toastr/dist/css/cxlt-vue2-toastr.css');
   @import url('bootstrap/dist/css/bootstrap.css');
   @import url('bootstrap-vue/dist/bootstrap-vue.css');
+  @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
   body{margin: 0; padding: 0; background: #000;}
   *{outline: none; list-style: none;}
